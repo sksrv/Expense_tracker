@@ -21,7 +21,7 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* Optional: Add a card or button for editing profile */}
+        {/* button for editing profile */}
         <div className="flex items-center gap-3 mt-6">
           <button
             disabled
@@ -29,7 +29,6 @@ const Profile = () => {
           >
             Edit Profile
           </button>
-
           <span className="text-xs font-medium text-purple-600 bg-purple-100 px-2 py-1 rounded-full">
             Coming Soon
           </span>
